@@ -1,5 +1,5 @@
 import react from 'react';
-import foto from '../imagen.png';
+import foto from '../Captura3.png';
 //import "./gallery.css";
 
 
