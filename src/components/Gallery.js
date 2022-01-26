@@ -1,12 +1,12 @@
 import react from 'react';
-import foto from '../imagen2.png';
+import foto from '../galleryFoto.png';
 //import "./gallery.css";
 
 
 const Gallery = () => {
 
   return (
-    <div className="container">
+    <div className="container mt-3">
       <div className='row'>
         <div className='col-md-4'>
           <img className="img-fluid rounded d-block" src={foto} alt="image" />
@@ -19,18 +19,18 @@ const Gallery = () => {
         </div>
       </div>
       <div className='row'>
-        <div className='col-md-4'>
+        <div className='col-md-4 mt-4'>
           <img className="img-fluid rounded d-block m-l-none" src={foto} alt="image" />
         </div>
-        <div className='col-md-4'>
+        <div className='col-md-4 mt-4'>
           <img className="img-fluid rounded d-block m-l-none" src={foto} alt="image"/>
         </div>
-        <div className='col-md-4'>
+        <div className='col-md-4 mt-4'>
           <img className="img-fluid rounded d-block m-l-none" src={foto} alt="image" />
         </div>
       </div>
-      <div>
-        <button className="btn btn-pink">Load More</button>
+      <div className="text-center mt-4">
+        <p className="mx-auto">Load More</p>
       </div>
     </div>
 

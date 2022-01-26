@@ -1,25 +1,17 @@
 import react from 'react';
-import logo1 from '../logo1.png';
+import { Container, Navbar } from 'react-bootstrap';
 //import './Nav.css';
 
-
+const fondo = {backgroundColor: '#ED3484'};
 const Nav = () => {
 
 return (
 
-  <div class="row">
-			<div class="col">
-        <div className="form-group row">
-          <div className="btn col-5">
-          <img src="" className="img-fluid"/>gallery
-          </div>
-          <div className="col-2 ms-auto">
-          <button className="btn btn-primary " type="button" >LOGIN</button>
-          </div>
-      </div>
-    </div>
-  </div>
-
+  <Navbar className='mt-4' bg="light" expand="lg">
+  <Container style={fondo}>
+    <Navbar.Brand >Gallery</Navbar.Brand>
+  </Container>
+  </Navbar>
   ) 
 }
 

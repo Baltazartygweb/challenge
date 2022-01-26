@@ -1,20 +1,23 @@
 import react from 'react';
+import { Form, FormControl, Navbar, Nav } from 'react-bootstrap';
 
 
 const Search = () => {
 
 return (
-
-    <div col-12 col-sm-12 col-md-12 col-lg-12>
-       <div className="row">
-        <div className="col sm-2">Search by</div>   
-        <div className="col sm-8 float-right">
-        <input type="search" class="form-control" id="search-input" aria-label="Search docs for..." autocomplete="off" data-bd-docs-version="5.0"/>
-        
-       </div>
-       </div>
-    </div>
-
+    <Navbar className='mt-3'>
+        <Nav.Link href="#" disabled>
+          Search by #
+        </Nav.Link>
+    <Form className="d-flex">
+        <FormControl
+          type="search"
+          className="me-2"
+          aria-label="Search"
+          
+        />
+      </Form>
+      </Navbar>
     ) 
 }
 
