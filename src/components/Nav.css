@@ -1,12 +1,9 @@
-.containerNav{
-    display: grid;
-    column-gap: 100px;
-    justify-items: center;
-    position: absolute;
-    width: 81px;
-    height: 37px;
-    left: 70px;
-    top: 15px;
+.nav{
+    padding: 5px;
+    height: 100px;
+    top: 5px;
+    background-color:darkmagenta;
+    color: white;
 }
 .boton{
     position: absolute;

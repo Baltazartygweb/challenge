@@ -1,12 +1,12 @@
 import react from 'react';
 import foto from '../galleryFoto.png';
-//import "./gallery.css";
+import "./gallery.css";
 
 
 const Gallery = () => {
 
   return (
-    <div className="container mt-3">
+    <div className="mt-3 gallery">
       <div className='row'>
         <div className='col-md-4'>
           <img className="img-fluid rounded d-block" src={foto} alt="image" />

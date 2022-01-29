@@ -1,14 +1,14 @@
 import react from 'react';
 import { Container, Navbar } from 'react-bootstrap';
-//import './Nav.css';
+import './Nav.css';
 
-const fondo = {backgroundColor: '#ED3484'};
+
 const Nav = () => {
 
 return (
 
-  <Navbar className='mt-4' bg="light" expand="lg">
-  <Container style={fondo}>
+  <Navbar className='mt-4 nav' bg="light" expand="lg">
+  <Container >
     <Navbar.Brand >Gallery</Navbar.Brand>
   </Container>
   </Navbar>

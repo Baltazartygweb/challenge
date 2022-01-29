@@ -2,14 +2,14 @@ import react from 'react';
 import { Table } from 'react-bootstrap';
 import logo from '../logo.png';
 
-//import "./header.css";
+import "./header.css";
 
 
 const Header = () => {
 
 return (
 
-    <Table>
+    <Table className='tabla'>
     <tbody class="col-md-4">
         <tr>
             <td>
