@@ -5,10 +5,9 @@ import "./footer.css";
 const Footer = () => {
 
 return (
-
-    <div className="bg-dark rect1">
+    <div className="footer">
         <p className='text-white text-center'>© All right reserved 2020</p>
-        
+
     </div>
 
     ) 

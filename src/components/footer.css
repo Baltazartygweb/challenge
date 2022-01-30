@@ -1,10 +1,6 @@
-.rect1{
+.footer{
     justify-self: center;
     background: #000000;
-}
-
-.rect2{
-    position: absolute;
-    left: 0px;
-    background: #C23F81;
+    border-top: 10px solid rgb(194, 11, 103);
+    
 }

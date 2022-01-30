@@ -1,14 +1,16 @@
+
 .nav{
-    padding: 5px;
+    margin-left: 0px;
     height: 100px;
     top: 5px;
-    background-color:darkmagenta;
-    color: white;
+    background: linear-gradient(0deg, rgba(194, 11, 108, 0.2), rgba(165, 40, 127, 0.404)),
+                linear-gradient(0deg, rgba(194, 12, 139, 0.623), rgba(134, 23, 101, 0.664));
 }
-.boton{
-    position: absolute;
-    width: 81px;
-    height: 37px;
-    left: 1129px;
-    top: 19px;
+
+.navtext{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 40px;
 }
+
+
