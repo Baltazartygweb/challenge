@@ -29,6 +29,11 @@
   .container{
     display: flex;
     flex-direction: column;
-    
-    
-}
+    justify-content: space-evenly;
+    max-width: 100%;  
+    align-items: center; 
+  }
+
+  .top-container {
+    max-width: 90%;
+  }

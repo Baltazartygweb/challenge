@@ -1,4 +1,4 @@
-import React, { useEffect, useState }  from 'react';
+import React from 'react';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Search from './components/Search';
@@ -18,8 +18,11 @@ function App() {
     <div className="container fluid">
       <Header/>
       <Nav/>
-      <Search/>
-      <Gallery/>
+      <div className="top-container">
+        <Search/>
+        <Gallery/>
+      </div>
+      
       <Footer/>
         
     </div>
