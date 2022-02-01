@@ -9,7 +9,7 @@ const Header = () => {
 
 return (
 
-    <Table className='tabla'>
+    <Table className='mt-3 tabla'>
     <tbody class="col-md-4">
         <tr>
             <td>

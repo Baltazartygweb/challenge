@@ -10,5 +10,6 @@
   }
 
   .tabla {
+    width: 90% !important;
     vertical-align: middle !important;
   }
